@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+        tools:ignore="UseCompoundDrawables">
+
+        <TextView
+            style="@style/Animation.Design.BottomSheetDialog"
+            android:layout_width="500dp"
+            android:layout_height="106dp"
+            android:background="@color/design_default_color_primary_dark"
+            android:paddingBottom="10dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:cardCornerRadius="4dp">
+
+            <ImageView
+                android:layout_width="227dp"
+                android:layout_height="200dp"
+
+                android:contentDescription="@string/image_hai"
+                app:srcCompat="@mipmap/ic_letters" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view1"
+            android:layout_width="480dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="4dp">
+
+            <TextView
+                android:id="@+id/speechtxt"
+                android:layout_width="480dp"
+                android:layout_height="100sp"
+                android:text="@string/text_with_paragraphs"
+                android:textSize="20sp"
+                android:layout_gravity="top"/>
+
+            <Button
+                android:id="@+id/speechbtn"
+                android:layout_width="226dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="@string/speech_to_text"
+                android:background="@color/design_default_color_primary_dark"
+                />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view2"
+            android:layout_width="480dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="4dp">
+
+            <TextView
+                android:id="@+id/imagetxt"
+                android:layout_width="480dp"
+                android:layout_height="100sp"
+                android:text="@string/text_with_paragraphs"
+                android:textSize="20sp"
+                android:layout_gravity="top"/>
+
+            <Button
+                android:id="@+id/imagebtn"
+                android:layout_width="226dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="@string/speech_to_text"
+                android:background="@color/design_default_color_primary_dark"
+                />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view3"
+            android:layout_width="480dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="4dp">
+
+            <TextView
+                android:id="@+id/converttxt"
+                android:layout_width="480dp"
+                android:layout_height="100sp"
+                android:text="@string/text_with_paragraphs"
+                android:textSize="20sp"
+                android:layout_gravity="top"/>
+
+            <Button
+                android:id="@+id/convertbtn"
+                android:layout_width="226dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:text="@string/speech_to_text"
+                android:background="@color/design_default_color_primary_dark"
+                />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DyslexiaAssist</string>
+    <string name="tv1">press mic for recognition</string>
+    <string name="welcome">Hello welcome to Dyslexia assist</string>
+    <string name="lettersdesc">IMAGE OF JUMBLED LETTERS</string>
+    <string name="text_with_paragraphs">
+        Can this contain a lot of text? Can it contain \n a newline? Yes, it can.
+        Adding a 2nd line like this should work.
+        It should not cause parsing errors.
+    </string>
+    <string name="text_with_paragraphs1">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    </string>
+    <string name="dyslexia_assist">DYSLEXIA ASSIST</string>
+    <string name="image_hai">image hai</string>
+    <string name="speech_to_text">Speech to text</string>
+</resources>
